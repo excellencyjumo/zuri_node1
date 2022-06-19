@@ -4,6 +4,7 @@ http.createServer((req,res)=>{
     switch(req.url){
         case '/':
             res.writeHead(200,{'Content-Type':'text/html'})
+            res.end('home.html')
             break;
         
         }
